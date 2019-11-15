@@ -2,18 +2,34 @@
 	text-align: center;
 }
 body{
-	background-color: grey;
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+}
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+header{
+	 background: #bbbbbb;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#000080 3px solid;
 }
 #Comment {
 	height: 100px;
 	width: 300px;
 	border : 1px solid black;
 }
-#pScore {
-	height:50px;
-	width:100px;
+.btn-group {
+	background-color: blue;
 	border: 1px solid black;
-}
+	color: white;
+	padding: 10px 24px;
+	float: center;
 #button {
 	height: 25 px;
 	width: 50px;
