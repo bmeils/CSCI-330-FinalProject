@@ -1,0 +1,77 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Rate Your Professor">
+    <meta name="keywords" content="Professor ratings, rate your prof, pick a good one">
+    <meta name="author" content="Anna, Chris">
+    <title>Rate Your Professor | Home</title>
+    <link rel = "stylesheet"
+        type = "text/css"
+        href = "home.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+                <div id="branding">
+                    <h1><span class="highlight">Rate</span> Your Professor</h1>
+                </div>
+            <nav>
+                <ul>
+                    <!--Home page linked here-->
+                    <li class="current"><a href="home.html">Home</a></li>
+                    <!--Rate page linked here-->
+                    <li><a href="rate_a_professor.html">Rate a Professor</a></li>
+                    <!--Professor linked here-->
+                    <li><a href="display.html">Professors</a></li>
+                </ul>
+            </nav>
+        </div>
+            </header>
+<section>
+    <div class="shadow">
+    <img src="logo.png" width="350px" height="350px">
+    </div>
+</section>
+
+<section>
+<div class="label">
+<label for="SchoolDepartments">Choose a Department: </label>
+<input list="Departments" id="SchoolDepartments" name="SchoolDepartments" />
+
+<datalist class="Departments">
+    <option value="Accounting">
+    <option value="Computer Science">
+    <option value="Cybersecurity">
+    <option value="Graphic Design">
+    <option value="Mathematics">
+    <option value="Philosophy">
+    <option value="Theology">	
+</datalist>
+<br>
+
+<label for="SchoolProfessors">Choose a Professor: </label>
+<input list="Professors" id="SchoolProfessors" name="SchoolProfessors" />
+
+<datalist id="Professors">
+    <option value="Kevin Lillis">
+    <option value="Ning Zhang">
+    <option value="Sayonnha Mandal">
+    <option value="Gary Monnard">
+    <option value="Travis Eygabroad">
+    <option value="Max Mayfield">
+</datalist>
+</div>
+
+<br>
+<!--location obviously needs changed-->
+<div class="button">
+    <button onclick="window.location.href = 'display.html';">Enter</button>
+</div>
+
+</section>
+<footer>
+<p>Rate Your Professor, Copyright &copy; 2019</p>
+</footer>
+</body>
+</html>

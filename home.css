@@ -1,0 +1,101 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+}
+/* Global */
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+/* Header */
+header{
+    background: #bbbbbb;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#000080 3px solid;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+header li{
+    /*float: left;*/
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin:0;
+}
+
+/*header #branding img{
+    padding:0;
+    margin-top:0;
+    margin-left: 500px;
+}   Needs to be correctly implemented */
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color:#000080;
+    font-weight:bold;
+}
+
+header a:hover{
+    color:#cccccc;
+    font-weight: bold;
+}
+
+div.shadow {
+    position:absolute;
+    max-width:45%;
+    max-height:45%;
+    top:50%;
+    left:50%;
+    overflow:visible;
+}
+img{
+    position:relative;
+    max-width:100%;
+    max-height:100%;
+    margin-top:-50%;
+    margin-left:-50%;
+}
+.label{
+    padding-top: 50px;
+    text-align: center;
+}
+.button{
+    text-align: center;
+    
+    }
+
+footer{
+    padding:20px;
+    margin-top:500px;
+    color:#f4f4f4;
+    background-color: #000080;
+    text-align:center;
+}
