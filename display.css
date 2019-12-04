@@ -105,15 +105,13 @@ header a:hover{
 }
 
 /* Boxes */
-#relatedProfessors{
+#image{
     margin-top: 20px;
 }
 
-#relatedProfessors .box{
-    float:left;
-    text-align: center;
-    width:30%;
-    padding: 10px;
+#image .shadow{
+     display:block;
+     margin-left:45%;
 }
 
 footer{
